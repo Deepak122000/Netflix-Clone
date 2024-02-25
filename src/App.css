@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.nav {
+    display: flex;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+    margin: 20px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.active {
+    text-decoration: none;
+    color: white;
+    font-size: "15px";
 }
 
-.App-link {
-  color: #61dafb;
+.allImages {
+    display: flex;
+    overflow-x: scroll;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .allImages::-webkit-scrollbar {
+    display: none;
+} */
+
+img {
+    margin: 10px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* https://api.themoviedb.org/3/discover/tv/?api_key=659a1becb43addf44334a3b5e5685580&with_network=123 */
+
+/* https://api.themoviedb.org/3/discover/movie?api_key=659a1becb43addf44334a3b5e5685580 */
+
+/* https://api.themoviedb.org/3/genre/tv/list? */
+
+/* https://api.themoviedb.org/3/discover/tv?api_key=${API_KEY} */
